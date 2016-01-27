@@ -1,0 +1,30 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> New Document </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="{% static 'css/common.css' %}">
+  <script src="{% static 'js/jquery-1.11.3.min.js' %}"></script>
+  <script src="{% static 'js/common.js' %}"></script>
+  <script src="{% static 'js/jquery.form.js' %}"></script>
+  <script type="text/javascript">
+
+	$().ready(function(){
+		
+	});
+
+
+  </script>
+ </head>
+
+ <body>
+  <div class="main">
+	  	<form id="ajaxUploadForm">
+	  		{% csrf_token %}
+		  	<input type="file" name="file" class="file" id="file"/>
+			<img class="image" src="{% static 'images/jjun.jpg' %}">
+		</form>
+  </div>
+ </body>
+</html>

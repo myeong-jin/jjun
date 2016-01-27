@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> New Document </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <script src="f:/jquery.js"></script>
+  <script type="text/javascript">
+
+	$().ready(function(){
+		
+	});
+
+
+  </script>
+ </head>
+
+ <body>
+  
+ </body>
+</html>
